@@ -10,14 +10,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/ui',
     '@compodium/nuxt',
-    'nuxt-umami',
-  ],
-
-  umami: {
-  id: '197f9272-428b-435d-b011-1e0ce17582e7',
-  host: 'https://testpclcweb.19991230.xyz',
-  autoTrack: true,
-  },
+    ],
 
   content: {
     experimental: {
@@ -30,8 +23,17 @@ export default defineNuxtConfig({
       link: [
         { rel: 'icon', type: 'image/png', href: '/images/fish.png' }
       ],
-      titleTemplate: '%s - PCL Community'
-    }
+      titleTemplate: '%s - PCL Community',
+      
+      // Umami
+      script: [
+        {
+          src: 'https://cloud.umami.is/script.js',
+          'data-website-id': '197f9272-428b-435d-b011-1e0ce17582e7',
+          async: true,
+        },
+      ],
+    },
   },
 
   fonts: {
