@@ -9,8 +9,15 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/content',
     '@nuxt/ui',
-    '@compodium/nuxt'
+    '@compodium/nuxt',
+    'nuxt-umami',
   ],
+
+  umami: {
+  id: '197f9272-428b-435d-b011-1e0ce17582e7',
+  host: 'https://testpclcweb.19991230.xyz',
+  autoTrack: true,
+  },
 
   content: {
     experimental: {
