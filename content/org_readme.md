@@ -6,7 +6,7 @@
 
 :br
 
-你好！欢迎来到 PCL Community，这是 :nav-link[PCL2]{href="https://github.com/Hex-Dragon/PCL2/"} 社区中的活跃社区用户们组建成的一个组织，仅是一个社区用户开发者组织，不代表开发者龙腾猫跃和 PCL 官方。
+Um PoWERED : 你好！欢迎来到 PCL Community，这是 :nav-link[PCL2]{href="https://github.com/Hex-Dragon/PCL2/"} 社区中的活跃社区用户们组建成的一个组织，仅是一个社区用户开发者组织，不代表开发者龙腾猫跃和 PCL 官方。
 
 :br
 
